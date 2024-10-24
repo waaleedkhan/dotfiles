@@ -1,0 +1,23 @@
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	excludesfile = ~/.gitignore
+	editor = code -w
+	autocrlf = input
+	pager = less -+$LESS -RSF
+[commit]
+	gpgsign = true
+[apply]
+	whitespace = nowarn
+[format]
+	pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
+[push]
+  	default = nothing
+[merge "ours"]
+	driver = true
+[pager]
+	branch = false
+[http]
+	postBuffer = 1048576000
