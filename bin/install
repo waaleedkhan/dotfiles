@@ -1,9 +1,7 @@
 #!/bin/sh
 
-ln -is $(readlink -f gemrc) ~/.gemrc
 ln -is $(readlink -f gitconfig) ~/.gitconfig
 ln -is $(readlink -f gitignore) ~/.gitignore
-ln -is $(readlink -f irbrc) ~/.irbrc
 ln -is $(readlink -f plugins) ~/.zsh-plugins
 
 cp -i $(readlink -f zshrc) ~/.zshrc
